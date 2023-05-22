@@ -1,0 +1,182 @@
+.cat-picture{
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.cat-picture2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px;
+    border-radius: 100px;
+}
+.catpiture3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.search-bar{
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 12px 12px 15px 15px ;
+    margin-bottom: 16px;
+}
+.search-bar-google{
+    font-size: 16px;
+    border: none;
+    padding: 12px 12px 15px 15px;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+div.email{
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.label{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.email-box{
+    font-size: 16px;
+  width: 390px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.disclamer{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.button{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 400px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 30px;
+
+}
+
+div.twitter-post{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+.twitter-logo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.caption{
+    width: 300px;
+    border: none;
+    font-size: 18px;
+    vertical-align: middle;
+}   
+
+.btn2{
+    background-color: rgb(29, 155, 244);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.name{
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+.email-tab{
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block; 
+}
+
+p{
+    font-family: Arial;
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+}
+.btn-yes, .btn-no{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google{
+    width: 200px;
+    display: block;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+.search-bar-google2{
+    width: 500px;
+    font-size: 16px;
+    border: none;
+    padding: 12px 12px 15px 15px;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.first-name, .last-name{
+    width: 148px;
+    display: inline-flex;
+    font-family: Arial;
+    margin-bottom: 12px;
+    border-width: 1px;
+    border-style: solid;
+}
+.email-sign-up{
+    display: block;
+    width: 300px;
+    margin-bottom: 12px;
+}
+button.sign-up{
+    color: white;
+    background-color: rgb(47, 127, 231);
+    border: none;
+    width: 300px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 8px;
+}
