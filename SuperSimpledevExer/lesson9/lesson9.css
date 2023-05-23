@@ -1,0 +1,160 @@
+.red-square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.green-circle{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.survey{
+    margin: 10px;
+    border: 1px solid black;
+    width: 300px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.box-card{
+    
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 450px;
+    border-radius: 6px;
+}
+.twitter-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.caption{
+    width: 300px;
+    border: none;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.button{
+    background-color: rgb(29, 155, 244);
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.yt-box{
+    margin-top: 15px;
+    background-color: rgb(33, 33, 33);
+    width: 360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.yt-title{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.yt-description{
+    color: rgb(160, 160, 160);
+}
+
+p.name, p.mutual-friends, p.add-friend-request{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.profile{
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.profile-picture{
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 12px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.mutual-friends{
+    color: rgb(100, 100, 100);
+    margin-left: 8px;
+    margin-bottom: 12px;
+}
+.add-friend-request{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+
+
+
+.google{
+    width: 200px;
+    display:flex;
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+.search-bar-google2{
+    width: 500px;
+    font-size: 16px;
+    border: none;
+    padding: 12px 12px 15px 15px;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.google-btn{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    text-align: center;
+}

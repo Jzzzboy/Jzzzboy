@@ -142,7 +142,7 @@ p{
 
 .google{
     width: 200px;
-    display: block;
+    display:flex;
     margin-left: 150px;
     margin-bottom: 10px;
     vertical-align: middle;

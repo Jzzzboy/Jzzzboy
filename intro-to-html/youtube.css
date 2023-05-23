@@ -1,3 +1,9 @@
+p{
+    font-size: 16px;
+    font-family: Arial;
+}
+
+
 .thumbnail{
     width: 300px;
     display: block;
@@ -8,7 +14,16 @@
     font-size: 20px;
     margin-left: 12px;
     border-radius: 2px;
+    display: block;
 }
 .video-title{
     width: 300px;
+    font-weight: bold;
+}
+
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
 }
