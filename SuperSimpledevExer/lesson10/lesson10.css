@@ -1,0 +1,98 @@
+p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.profile{
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.mutual-friend-row{
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+.mutual-friend-picture{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    border-radius: 14px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.mutual-friend{
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(100, 100, 100);
+}
+.add-friend-button{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.twitter-profile{
+   display: flex;
+   width: 250px;
+   vertical-align: top;
+   padding: 16px;
+   
+}
+.twitter-profile-picture{
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.twitter-info{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-family: arial;
+    width: 600px;
+}
+.twitter-name{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 4px;
+    width: 400px;
+}
+.twitter-description, .twitter-detail{
+    font-size: 15px;
+    margin-bottom: 4px;
+    color: rgb(96, 96, 96);
+    width: 400px;
+}
+.follow{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
