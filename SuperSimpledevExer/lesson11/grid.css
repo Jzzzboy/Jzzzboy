@@ -1,0 +1,72 @@
+P{
+    font-family: Arial;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.profile-grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+
+}
+
+.profile{
+    width: 200px;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    vertical-align: top;
+    margin-right: 15px;
+}
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+.mutual-friend-row{
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+.mutual-friend-picture{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    border-radius: 14px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.mutual-friend{
+    vertical-align: middle;
+    display: inline-block;
+    color: rgb(100, 100, 100);
+}
+.add-friend-button{
+    width: 190px;
+    background-color: rgb(45, 136, 255);
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 8px 15px 8px 15px ;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+.remove-button{
+    width: 190px;
+    background-color: rgb(107, 105, 105);
+    color: white;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-left: 5px;
+}

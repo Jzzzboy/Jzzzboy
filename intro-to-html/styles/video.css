@@ -1,23 +1,9 @@
-body{
-    padding-bottom: 1000px;
-}
-
-
-p{
-    font-family: 'Roboto', 'Noto San Tagalog', Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 
 .thumbnail{
     width: 100%;
 
 }
 
-.search-bar{  
-    display: block;
-}
 
 .video-title{
     margin-top: 0;
@@ -64,7 +50,7 @@ p{
 
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1f;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 40px;
 }

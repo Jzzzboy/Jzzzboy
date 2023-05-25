@@ -1,0 +1,80 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+  
+.column1 {
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    background-color: black;
+    color: white;
+}
+  
+.column2 {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-top: 30px;
+}
+.column3{
+    background-color: lightpink;
+    width: 100px;
+}
+.column4{
+    background-color: lightblue;
+    width: 200px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row2-item{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inbox-label{
+    font-size: 14px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.picture{
+    margin-right: 10px;  
+}
+.pictureko{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}

@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+.lightpink{
+    background-color: lightpink;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 50px 75px 50px;
+}
+.col1, .col3{
+    background-color: lightblue;
+}
+.col2{
+    background-color: lightpink;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.col001{
+    background-color: lightpink;
+}

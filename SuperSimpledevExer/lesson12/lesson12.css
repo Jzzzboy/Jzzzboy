@@ -1,0 +1,168 @@
+.lesson12a{
+    display: flex;
+    flex-direction: row;
+}
+.aa12{
+    background-color: blue;
+    width: 200px;
+}
+.bb12{
+    background-color: brown;
+    width: 70px;
+}
+
+.lesson12b{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.aaa12, .ccc12{
+    background-color: blue;
+    width: 50px;
+}
+.bbb12{
+    background-color: red;
+    width: 75px;
+    flex: 1;
+
+}
+
+.lesson12c{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aa112, .bb112, .cc112, .dd112{
+    background-color: lightpink;
+}
+
+.lesson12d{
+    margin-top: 30px;
+    height: 50px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.aa1122, .bb1122{
+    background-color: palevioletred;
+}
+
+.container{
+    margin-top: 30px;
+    border: 1px solid grey;
+    width: 300px;
+    border-radius: 6px;
+    border-width: 1px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px 6px 12px;
+}
+.notifcation{
+    background-color: rgb(49, 109, 245);
+    color: white;
+    padding: 3px 10px 3px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+
+  
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.profile-picture {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+  
+.info {
+    width: 200px;
+}
+  
+.name {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+  
+.handle {
+    color: rgb(150, 150, 150);
+    margin-bottom: 5px;
+}
+  
+.category {
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+}
+  
+.follow-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div {
+    font-family: Arial;
+}
+  
+.header {
+    background-color: rgb(120, 82, 178);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+.home-link {
+    font-weight: bold;
+}
+  
+.text-box {
+    width: 500px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+  
+button {
+    background-color: rgb(120, 82, 178);
+    color: white;
+    font-size: 16px;
+    border: 1px solid none;
+    border-radius: 2px;
+    padding: 8px 15px 8px 15px;
+}

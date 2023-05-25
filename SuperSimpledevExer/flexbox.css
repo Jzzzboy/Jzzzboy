@@ -1,0 +1,103 @@
+body{
+    padding-bottom: 1000px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    background-color: lightpink;
+}
+.div2{
+    background-color: lightblue;
+}
+
+.div02{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.div001{
+    background-color: lightpink;
+    width: 100px;
+}
+.div002{
+    background-color: lightblue;
+    flex: 1;
+}
+
+.div03{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.div0001{
+    background-color: lightpink;
+    width: 100px;
+}
+.div0002{
+    background-color: lightblue;
+    flex: 1;
+}
+.div0003{
+    background-color: lightpink;
+    flex: 2;
+}
+
+.div04{
+    margin-top: 20px;
+    height: 70px;
+    border: 1px solid gray;
+    justify-content: center;
+}
+.div00001{
+    background-color: lightpink;
+    width: 100px;
+}
+.div00002{
+    background-color: lightblue;
+    width: 100px;
+}
+.div00003{
+    background-color: lightpink;
+    width: 100px;
+}
+
+.div05{
+    margin-top: 20px;
+    height: 70px;
+    border: 1px solid gray;
+    justify-content: space-between; 
+}
+.div11{
+    background-color: lightpink;
+    width: 100px;
+}
+.div22{
+    background-color: lightblue;
+    width: 100px;
+}
+.div33{
+    background-color: lightpink;
+    width: 100px;
+}
+
+.div06{
+    margin-top: 20px;
+    height: 70px;
+    border: 1px solid gray;
+    justify-content: space-between;
+    align-items: center; 
+}
+.div111{
+    background-color: lightpink;
+    width: 100px;
+}
+.div222{
+    background-color: lightblue;
+    width: 100px;
+}
+.div333{
+    background-color: lightpink;
+    width: 100px;
+}
