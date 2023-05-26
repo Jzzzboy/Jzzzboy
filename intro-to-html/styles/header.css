@@ -1,8 +1,18 @@
+
 .header{
     height: 55px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(240, 240, 240);
+    z-index: 100;
 }
 .left-section{
     display: flex;
@@ -49,11 +59,49 @@
     border: 1px solid rgb(192, 192, 192);
     margin-left: -1px;
     margin-right: 8px;
+    position: relative;
 }
+
 .search-icon{
     height: 25px;
-    margin-top: 4px;
     
+}
+
+.search-button .tooltip, 
+.voice-search-button .tooltip, 
+.upload-icon-container .tooltip,
+.youtube-icon-container .tooltip {
+    font-family: 'Roboto', Arial;
+    position: absolute;
+    background-color: grey ;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;  
+    transition: opacity 0.15s; 
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip, 
+.upload-icon-container:hover .tooltip, 
+.youtube-icon-container:hover .tooltip {
+    opacity: 1;
+}
+
+
+
+.search-button,
+.voice-search-button, 
+.upload-icon-container,
+.youtube-icon-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .voice-search-button{
@@ -65,7 +113,6 @@
 
 .voice-search-icon{
     height: 25px;
-    margin-top: 4px;
     background-color: rgb(248, 248, 248);
 }
 
@@ -80,11 +127,25 @@
 .upload-icon{
     height: 24px;
 }
-.youtube-icon{
+.youtube-apps-icon{
     height: 24px;
 }
 .notifications-icon{
     height: 24px;
+}
+.notifications-icon-container{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: 'Roboto', Arial;
+    font-size: 11px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
 }
 .current-user-picture{
     height: 32px;
